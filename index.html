@@ -3,7 +3,7 @@
 		<meta charset="UTF-8">
 		  <title>夏果しぃ</title>
   <link rel="icon" href="f.ico" type="image/x-icon">
-  <meta name="viewport" content="width=device-width, initial-scale=0.75">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
 		<div class="main">
@@ -20,7 +20,7 @@
 						</div>
 						<div class="linktext">
 							<h2>blog</h2>
-							<p></p>
+							<p>書いた文章を載せている</p>
 						</div>
 					</di>
 				</div></a></li>
@@ -98,7 +98,7 @@
 						</div>
 						<div class="linktext">
 							<h2>Twitter</h2>
-							<p></p>
+							<p>主に使っているsns</p>
 						</div>
 					</di>
 				</div></a></li>
@@ -163,7 +163,7 @@
 						</div>
 						<div class="linktext">
 							<h2>Zenn</h2>
-							<p></p>
+							<p>blogの文章の一部を載せてる</p>
 						</div>
 					</di>
 				</div></a></li>
@@ -176,7 +176,7 @@
 						</div>
 						<div class="linktext">
 							<h2>note</h2>
-							<p></p>
+							<p>blogの文章の一部を載せてる</p>
 						</div>
 					</di>
 				</div></a></li>
@@ -205,15 +205,20 @@
 html {font-size: 62.5%;}
 body { background-color: var(--black);
 font-family: Noto Sans JP, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;}
-.main {	max-width: 480px;
+.main {	
+		width: 90vw;
+		max-width: 480px;
 		margin: 18px auto 30px auto;
 		display: flex;
 		flex-direction: column;
 		align-items: center }
 .logo { max-width: 60px;
 		margin-bottom: 17px;}
-.prof { width: 120px;
-	height: 120px;
+.prof { 
+	width: 25vw;
+	height: 25vw;
+	max-width: 120px;
+	max-height: 120px;
 	border-radius: 50%;
     object-fit: cover;
 	margin-bottom: 8px;
@@ -225,7 +230,8 @@ font-family: Noto Sans JP, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, 
 	color: var(--white);}
 li a { text-decoration: none;
 	color: var(--black);}
-.link{ position: relative;
+.link{ 
+	position: relative;
 	margin-bottom: 14px;
     z-index: 1;
     width: 100%;
@@ -235,7 +241,8 @@ li a { text-decoration: none;
     padding: 7px;
     background: var(--white);}
 .links{
-	width: 480px;
+	width: 90vw;
+		max-width: 480px;
 	margin-top: 24px;
 	color: var(--black);
 }
